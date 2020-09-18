@@ -1,0 +1,117 @@
+body {
+	margin: auto 0;
+	font-family: 'Signika', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Signika', sans-serif;
+}
+
+.wrap {
+	background: rgba(0, 0, 0, 0.5) url(coffee.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	overflow: hidden; 
+	background-blend-mode: overlay;
+}
+
+.wave {
+	position: absolute;
+	width: 100%;
+	bottom: -140px;
+	color: #FFF;
+	opacity: 1;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 25px 80px;
+	background: linear-gradient(to top, #55A630, rgba(0, 0, 0, 0.8));
+}
+
+
+header .logo img  {
+	/* font-size: 36px;
+	font-weight: 700px;
+	color: #FFF; */
+	float: left;
+	width: 50px;
+	height: 50px;
+
+}
+
+header .menu {
+	float: right;
+	margin-top: 5px;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a{
+	text-decoration: none;
+	font-size: 16px; 
+	color: #fefae0;
+	margin: 0 10px; 
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.content {
+	max-width: 55%;
+	padding: 200px 80px 0px;
+	color: #FFF;
+}
+
+.content h1 {
+	font-size: 48px; 
+}
+
+.content p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	/* padding: 25px 0; */
+	font-weight: 300;
+}
+
+.content .btn-group {
+	margin-top: 45px;
+}
+
+.content a {
+	display: inline-block;
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #283618;
+	border-radius: 50px;
+}
+
+.content a.color1 {
+	background-color: #d4d700;
+}
+
+/* .zone { */
+	/*padding: 30px 50px;
+	margin: 40px 60px; */
+/*	cursor: pointer;
+	color: #FFF;
+	font-size: 2em;
+	border-radius: 4px;
+	transition: all 0.3s linear;
+} */
+
+/* .zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box: hover {
+
+} */
